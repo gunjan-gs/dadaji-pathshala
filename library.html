@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mata Kaushalya Library - State-of-the-art library facilities with extensive collection of books and digital resources">
+    <meta name="keywords" content="library, books, digital resources, study space, Mata Kaushalya">
+    <meta name="author" content="Dadaji's Pathshala">
+    <title>Mata Kaushalya Library - Dadaji's Pathshala</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/lib.png"> 
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="library-page">
+    
+    <!-- Navigation Bar -->
+    <header role="banner">
+        <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+            <div class="container nav-container">
+                <div class="nav-brand">
+                    <img src="assets/lib.png" alt="Library Logo" class="nav-logo" width="50" height="50">
+                    <span class="brand-name">Mata Kaushalya Library</span>
+                </div>
+
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li role="none"><a href="index.html" class="nav-link" role="menuitem">Home</a></li>
+                    <li role="none"><a href="#library-home" class="nav-link active" role="menuitem">Library</a></li>
+                    <li role="none"><a href="index.html#courses" class="nav-link" role="menuitem">Courses</a></li>
+                    <li role="none"><a href="index.html#mentors" class="nav-link" role="menuitem">Mentors</a></li>
+                    <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <main>
+
+        <!-- Library Banner -->
+        <section class="library-banner" id="library-home">
+            <div class="container">
+                <div class="banner-content">
+                    <div class="banner-text">
+                        <span class="banner-badge">📚 Knowledge Hub</span>
+                        <h1 class="banner-title">
+                            <span class="highlight">Mata Kaushalya</span><br>
+                            Library
+                        </h1>
+                        <p class="banner-tagline">
+                            Your gateway to knowledge and wisdom. Explore our extensive collection of books, digital resources, and modern study facilities designed to support your academic journey.
+                        </p>
+                        
+                        <!-- Mataji's Vision Section -->
+                        <div class="dadi-vision">
+                            <div class="dadi-image-wrapper">
+                                <img src="assets/images/dadi.jpg" alt="Dadi - Library Patron" class="dadi-photo" width="120" height="120" loading="eager">
+                            </div>
+                            <div class="dadi-text">
+                                <h3 class="dadi-name">Dadi's Vision</h3>
+                                <p class="dadi-message">
+                                    "A library is a temple of learning where minds flourish and wisdom grows. 
+                                    Every book opens a new world, nurturing curiosity and enlightening souls."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="banner-visual">
+                        <img src="assets/lib.png" alt="Library Logo" class="banner-logo" width="400" height="400" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Slider Section -->
+        <section class="image-slider" aria-label="Library image gallery">
+            <div class="slider-container">
+                <div class="slider-track" id="sliderTrack">
+                    <div class="slide active">
+                        <img src="https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&w=1200&h=500&fit=crop" alt="Library Interior" width="1200" height="550" loading="lazy">
+                        <div class="slide-caption">Spacious Reading Halls</div>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/WhatsApp Image 2025-11-06 at 16.20.56.jpeg" alt="Book Collection" width="1200" height="550" loading="lazy">
+                        <div class="slide-caption">Extensive Book Collection</div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?auto=compress&cs=tinysrgb&w=1200&h=500&fit=crop" alt="Study Area" width="1200" height="550" loading="lazy">
+                        <div class="slide-caption">Modern Study Areas</div>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/WhatsApp Image 2025-11-06 at 16.21.16.jpeg" alt="Digital Resources" width="1200" height="550" loading="lazy">
+                        <div class="slide-caption">Digital Learning Resources</div>
+                    </div>
+                </div>
+                <button class="slider-btn prev" id="prevBtn" aria-label="Previous slide">&#10094;</button>
+                <button class="slider-btn next" id="nextBtn" aria-label="Next slide">&#10095;</button>
+                <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Slide navigation"></div>
+            </div>
+        </section>
+
+        <!-- Library Facilities Section -->
+        <section class="facilities" id="facilities">
+            <div class="container">
+                <h2 class="section-title">Library Facilities</h2>
+                <div class="facilities-grid">
+                    <article class="facility-card fade-in">
+                        <div class="facility-icon">
+                            <img src="https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Reading Rooms" width="400" height="220" loading="lazy">
+                        </div>
+                        <h3 class="facility-title">Reading Rooms</h3>
+                        <p class="facility-description">Spacious and well-lit reading rooms with comfortable seating arrangements designed for focused study sessions. Climate-controlled environment ensures optimal learning conditions throughout the year.</p>
+                    </article>
+
+                    <article class="facility-card fade-in">
+                        <div class="facility-icon">
+                            <img src="https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Wi-Fi Access" width="400" height="220" loading="lazy">
+                        </div>
+                        <h3 class="facility-title">High-Speed Wi-Fi</h3>
+                        <p class="facility-description">24/7 high-speed internet connectivity throughout the library for accessing online resources, digital libraries, and research databases. Seamless connectivity for all your academic needs.</p>
+                    </article>
+
+                    <article class="facility-card fade-in">
+                        <div class="facility-icon">
+                            <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Book Collection" width="400" height="220" loading="lazy">
+                        </div>
+                        <h3 class="facility-title">Extensive Collection</h3>
+                        <p class="facility-description">Over 50,000 books covering various subjects including technical, reference, fiction, and general literature. Regular additions of latest publications and bestsellers keep our collection current.</p>
+                    </article>
+
+                    <article class="facility-card fade-in">
+                        <div class="facility-icon">
+                            <img src="https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="E Resources" width="400" height="220" loading="lazy">
+                        </div>
+                        <h3 class="facility-title">Digital Resources</h3>
+                        <p class="facility-description">Access to premium e-journals, e-books, and online databases for comprehensive research. Subscriptions to major academic publishers and digital libraries enhance your learning experience.</p>
+                    </article>
+
+                    <article class="facility-card fade-in">
+                        <div class="facility-icon">
+                            <img src="https://images.pexels.com/photos/1329711/pexels-photo-1329711.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Study Spaces" width="400" height="220" loading="lazy">
+                        </div>
+                        <h3 class="facility-title">Group Study Spaces</h3>
+                        <p class="facility-description">Dedicated areas for collaborative learning and group discussions. Equipped with whiteboards and presentation tools, these spaces foster teamwork and knowledge sharing.</p>
+                    </article>
+
+                    <article class="facility-card fade-in">
+                        <div class="facility-icon">
+                            <img src="https://images.pexels.com/photos/273238/pexels-photo-273238.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Library Timings" width="400" height="220" loading="lazy">
+                        </div>
+                        <h3 class="facility-title">Extended Hours</h3>
+                        <p class="facility-description">Open Monday to Saturday, 8:00 AM - 8:00 PM with extended hours during examination periods. Flexible timings accommodate diverse study schedules and preferences.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Library Events Section -->
+        <section class="events" id="events">
+            <div class="container">
+                <h2 class="section-title">Library Events</h2>
+                <div class="events-grid">
+                    <article class="event-card fade-in">
+                        <div class="event-image">
+                            <img src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Book Fair" width="400" height="220" loading="lazy">
+                        </div>
+                        <div class="event-date">📅 15 Nov 2025</div>
+                        <h3 class="event-title">Annual Book Fair</h3>
+                        <p class="event-description">Explore a wide range of books from various publishers and genres. Special discounts available for students and faculty members. Meet authors and participate in book signing sessions.</p>
+                    </article>
+
+                    <article class="event-card fade-in">
+                        <div class="event-image">
+                            <img src="https://images.pexels.com/photos/716276/pexels-photo-716276.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Reading Workshop" width="400" height="220" loading="lazy">
+                        </div>
+                        <div class="event-date">📅 22 Nov 2025</div>
+                        <h3 class="event-title">Speed Reading Workshop</h3>
+                        <p class="event-description">Learn effective reading techniques to improve comprehension and retention with expert guidance. Enhance your reading speed while maintaining understanding and memory.</p>
+                    </article>
+
+                    <article class="event-card fade-in">
+                        <div class="event-image">
+                            <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" alt="Author Interaction" width="400" height="220" loading="lazy">
+                        </div>
+                        <div class="event-date">📅 30 Nov 2025</div>
+                        <h3 class="event-title">Author Interaction Session</h3>
+                        <p class="event-description">Meet renowned authors and gain insights into their writing journey and creative process. Q&A session and networking opportunity with literary professionals.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <h2 class="section-title">Library Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Library Hall" width="600" height="400" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Main Reading Hall</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Study Section" width="600" height="400" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Study Section</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Computer Section" width="600" height="400" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Digital Resources Center</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Book Stacks" width="600" height="400" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Book Collection</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.pexels.com/photos/1329711/pexels-photo-1329711.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Reference Section" width="600" height="400" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Reference Section</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in">
+                        <img src="https://images.pexels.com/photos/1370296/pexels-photo-1370296.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Periodical Section" width="600" height="400" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Periodicals & Journals</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Library</h2>
+                <div class="contact-grid">
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">📍</div>
+                        <h3>Address</h3>
+                        <address>
+                            Mata Kaushalya Library<br>
+                            Dadaji's Pathshala Campus<br>
+                            Educational District<br>
+                            City, State - 462001<br>
+                            India
+                        </address>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">📞</div>
+                        <h3>Phone</h3>
+                        <p>Main Desk: <a href="tel:+911234567891">+91 123 456 7891</a><br>
+                        Librarian: <a href="tel:+910987654322">+91 098 765 4322</a><br>
+                        Mon-Sat: 8:00 AM - 8:00 PM</p>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">✉️</div>
+                        <h3>Email</h3>
+                        <p>General Inquiries:<br>
+                        <a href="mailto:library@dadajipathshala.edu.in">library@dadajipathshala.edu.in</a><br><br>
+                        Librarian:<br>
+                        <a href="mailto:librarian@dadajipathshala.edu.in">librarian@dadajipathshala.edu.in</a></p>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">🕐</div>
+                        <h3>Library Hours</h3>
+                        <p>Monday - Saturday<br>
+                        8:00 AM - 8:00 PM<br><br>
+                        Extended hours during exams<br><br>
+                        Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-top">
+                    <div class="footer-brand">
+                        <img src="assets/lib.png" alt="Library Logo" class="footer-logo">
+                        <h3>Mata Kaushalya Library</h3>
+                        <p>Supporting academic excellence through comprehensive resources and modern facilities.</p>
+                    </div>
+                </div>
+                
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <nav aria-label="Footer navigation">
+                            <ul>
+                                <li><a href="index.html">🏠 Home</a></li>
+                                <li><a href="#library-home">📚 Library</a></li>
+                                <li><a href="index.html#courses">📖 Courses</a></li>
+                                <li><a href="index.html#mentors">👨‍🏫 Mentors</a></li>
+                                <li><a href="#contact">📧 Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>Library Services</h4>
+                        <nav aria-label="Library services links">
+                            <ul>
+                                <li><a href="#">📖 Book Catalogue</a></li>
+                                <li><a href="#">🎫 Membership Plans</a></li>
+                                <li><a href="#">💻 Digital Library Access</a></li>
+                                <li><a href="#">📜 Library Rules</a></li>
+                                <li><a href="#">🔍 Research Assistance</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>Resources</h4>
+                        <nav aria-label="Resource links">
+                            <ul>
+                                <li><a href="#">📅 Library Events</a></li>
+                                <li><a href="#">🕐 Operating Hours</a></li>
+                                <li><a href="#">📍 Location & Map</a></li>
+                                <li><a href="#">📧 Contact Librarian</a></li>
+                                <li><a href="#">❓ FAQs</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>Connect With Us</h4>
+                        <nav aria-label="Social media links">
+                            <ul class="social-links">
+                                <li><a href="#" aria-label="Visit our Facebook page" rel="noopener noreferrer">📘 Facebook</a></li>
+                                <li><a href="#" aria-label="Follow us on Twitter" rel="noopener noreferrer">🐦 Twitter</a></li>
+                                <li><a href="#" aria-label="Connect on LinkedIn" rel="noopener noreferrer">💼 LinkedIn</a></li>
+                                <li><a href="#" aria-label="Follow us on Instagram" rel="noopener noreferrer">📷 Instagram</a></li>
+                                <li><a href="#" aria-label="Subscribe to our YouTube channel" rel="noopener noreferrer">📺 YouTube</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Mata Kaushalya Library. All rights reserved.</p>
+                    <p class="footer-credit">Designed with ❤️ by <strong>Gunjan</strong></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
